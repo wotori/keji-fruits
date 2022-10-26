@@ -33,14 +33,14 @@ export function App() {
       redirect: "follow",
     };
 
-    const fruitList = ["apple", "banana"];
+    const fruitList = ["apple", "banana", "mango", "carrot", "eggplant"];
 
     await fetch("http://localhost:8000/detect", requestOptions)
       .then((response) => response.json())
       .then((result) => {
         console.log(result);
-        if (Object.keys(result).length > 0) {
-          let fruitName = Object.entries(result)[0][0];
+        if (result.length > 0) {
+          let fruitName = result[0];
           console.log("detected fruit name:", fruitName);
           if (fruitList.includes(fruitName)) {
             setFruit(fruitName);

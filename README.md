@@ -1,5 +1,5 @@
 # Fruit detector
-Detect fruits on img and render on canvas based on Yolo and Three.js
+Detect fruits on img and render on canvas based on Yolo and Three.js.
 
 # frontend
 ```cmd
@@ -16,3 +16,8 @@ python main.py
 ```
 
 ![alt text](img/img01.png)
+
+# credits
+Creative commons models from sketchfab
+
+
