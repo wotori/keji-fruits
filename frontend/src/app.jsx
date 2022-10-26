@@ -33,7 +33,15 @@ export function App() {
       redirect: "follow",
     };
 
-    const fruitList = ["apple", "banana", "mango", "carrot", "eggplant"];
+    const fruitList = [
+      "apple",
+      "banana",
+      "mango",
+      "carrot",
+      "eggplant",
+      "grape",
+      "dragonfruit"
+    ];
 
     await fetch("http://localhost:8000/detect", requestOptions)
       .then((response) => response.json())
@@ -46,7 +54,7 @@ export function App() {
             setFruit(fruitName);
           } else {
             alert(
-              "Only Apples and bananas are currently available to process."
+              `Only ${fruitList.toString()} are currently available to process.`
             );
           }
         } else {
