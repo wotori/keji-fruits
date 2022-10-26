@@ -9,8 +9,8 @@ yarn dev
 
 # backend
 
-## setup curom model
-if you want to load your prediction model you have to replace this file or modify loader in main file
+## setup custom model
+If you want to load your prediction model you have to replace this file or modify loader in main file
 `models/best.pt`
 
 ## start server
