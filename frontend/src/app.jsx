@@ -36,11 +36,14 @@ export function App() {
     const fruitList = [
       "apple",
       "banana",
+      "pear",
       "mango",
       "carrot",
       "eggplant",
+      "orange",
       "grape",
-      "dragonfruit"
+      "dragonfruit",
+      "pineapple"
     ];
 
     await fetch("http://localhost:8000/detect", requestOptions)

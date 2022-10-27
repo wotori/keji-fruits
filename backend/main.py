@@ -13,7 +13,7 @@ from utils.datasets import letterbox
 from utils.general import check_img_size, non_max_suppression, scale_coords
 
 # model = torch.hub.load("ultralytics/yolov5", "yolov5s", pretrained=True)
-model = attempt_load("models/best.pt")
+model = attempt_load("models/best2.pt")
 
 
 def recognize_img(img):
