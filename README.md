@@ -2,8 +2,6 @@
 Detect fruits on img and render on canvas based on Yolo and Three.js.
 ![alt text](img/img02.png)
 
-
-
 # frontend
 ```cmd
 yarn install
@@ -25,10 +23,14 @@ python main.py
 ```
 
 # credits
-##
-fruit detection [model](https://github.com/00011010z/fruit-detection-MGABO) by [张灿](https://github.com/00011010z)
+## fruit detection [model](https://github.com/00011010z/fruit-detection-MGABO) by:
+- [张灿](https://github.com/00011010z)
+- 长风
+- 我爱学习
 ## 3d models
 Creative commons models from sketchfab
 
 # Demo
-![alt text](demo.mp4)
+https://user-images.githubusercontent.com/10486621/198247478-6cd4f959-eae8-4af5-b21b-286ee5b73231.mp4
+
+
