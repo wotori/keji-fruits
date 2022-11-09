@@ -2,6 +2,10 @@
 Detect fruits on img and render on canvas based on Yolo and Three.js.
 ![alt text](img/img02.png)
 
+# Architecture
+![Group 5](https://user-images.githubusercontent.com/10486621/200825922-b2b961da-ac22-4854-8615-0ccf3ad450b2.png)
+
+
 # frontend
 ```cmd
 yarn install
